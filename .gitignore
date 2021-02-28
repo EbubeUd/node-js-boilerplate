@@ -1,0 +1,7 @@
+node_modules/
+logs/
+.vs/
+config/
+cert.pem
+key.pem
+files/
