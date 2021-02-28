@@ -1,13 +1,11 @@
-# sundayisland-dashboard-server
+# Node Js Boiler Plate
 
 
-
-<a href="#"><img src="https://res.cloudinary.com/dt4gyydev/image/upload/v1595121408/sunday_island/logo_w6vbta.png" title="Sunday Island" alt="SundayIsland Logo"></a>
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
 
-# Sunday Island Administrative Dashboard
+# Node Js Boiler plate
 
 > Backend Project, written in Node.js 
 
@@ -69,7 +67,7 @@
 
 - Clone this repo to your local machine using 
 ```shell
-$ git clone https://github.com/precisemedia/sundayisland-dashboard-server.git
+$ git clone https://github.com/EbubeUd/node-js-boilerplate.git
 
 ```
 
@@ -96,14 +94,14 @@ $ mkcert localhost 127.0.0.1
 
 >#### Database
 
-- You can set up the database using Xampp and PhpmyAdmin. Create a Database named "sunday_island". The tables will be  created when the app is started.
+- You can set up the database using Xampp and PhpmyAdmin. Create a Database named "db_name". The tables will be  created when the app is started.
 The database credentials are pre-configured in config/development.json
 ```javascript
 
   "database": {
     "username": "root",
     "password": null,
-    "database": "sunday_island",
+    "database": "db_name",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
